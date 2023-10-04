@@ -25,6 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import Amazonz from "./company/Amazonz.png";
+import Walmartz from "./company/Walmartz.png";
+import Greenz from "./company/Greenz.jpg";
+import SSAP from "./company/SSAP.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -62,4 +66,8 @@ export {
   jobit,
   tripguide,
   thislogo,
+  Amazonz,
+  Walmartz,
+  Greenz,
+  SSAP,
 };
