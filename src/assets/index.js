@@ -20,7 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import PacMan from "./company/PacMan.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -29,11 +29,11 @@ import Amazonz from "./company/Amazonz.png";
 import Walmartz from "./company/Walmartz.png";
 import Greenz from "./company/Greenz.jpg";
 import SSAP from "./company/SSAP.jpg";
-
+import ProperGadgets from "./company/ProperGadgets.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import StrangersThings from "./company/StrangersThings.png";
 import thislogo from "./thislogo.png";
 
 export {
@@ -70,4 +70,7 @@ export {
   Walmartz,
   Greenz,
   SSAP,
+  ProperGadgets,
+  PacMan,
+  StrangersThings,
 };

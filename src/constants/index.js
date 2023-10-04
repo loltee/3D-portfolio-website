@@ -27,6 +27,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  ProperGadgets,
+  PacMan,
+  StrangersThings,
 } from "../assets";
 
 export const navLinks = [
@@ -202,16 +205,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Proper Gadgets",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A ecommerce site that helps individuals shop for their prefect electrionic devices among other things. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
@@ -219,50 +222,48 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ProperGadgets,
+    source_code_link: "https://github.com/loltee/Capstone",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "PacMan",
+    description: "A lovely game using the retro styling of the beloved PacMan.",
+    tags: [
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: PacMan,
+    source_code_link: "https://github.com/tracy-kendrick/pacman",
+  },
+  {
+    name: "Strangers Things",
+    description: "A free chat room for people to discuss random events.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "API calls",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: StrangersThings,
+    source_code_link: "https://github.com/loltee/strangers",
   },
 ];
 
